@@ -3,7 +3,7 @@ import ItemList from "./ItemList";
 
 const ShopList = (props) => {
     const items = props.items.map((item, index) => {
-        return (item.length !== 0) ? <ItemList key={index} name={item} /> : false   
+        return (item.length !== 0) ? <ItemList key={index} name={item} handleClick={props.handleClick} /> : false   
     } 
     )
     

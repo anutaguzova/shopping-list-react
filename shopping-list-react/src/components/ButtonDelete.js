@@ -1,10 +1,8 @@
 import React from "react";
 
-const ButtonDelete = () => {
+const ButtonDelete = ({DeleteOne}) => {
   return (   
-         <button className="btn btn-primary"  >
-   delete
-    </button>
+         <div className="close" onClick={DeleteOne}> &otimes;</div>
   );
 };
 

@@ -42,3 +42,22 @@ h1 {
 }
 
 
+button {
+  border: none;
+  padding: 6px;
+}
+
+button:active, button:focus, button:hover {
+  cursor: pointer;
+}
+
+.close:active, .close:focus, .close:hover {
+  cursor: pointer;
+  scale: 1.6;
+}
+
+.name {
+  padding-left: 15px;
+}
+
+
